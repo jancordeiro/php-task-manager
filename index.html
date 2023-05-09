@@ -1,0 +1,27 @@
+<?php
+	include_once('config.php');
+?>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>PHP Task Manager</title>
+</head>
+<body>
+	<div class="container">
+	<h1>PHP Task Manager</h1>
+	<form action="taskinsert.php" method="POST">
+		<label>Task Name:</label>
+		<input type="text" placeholder="Task Name" name="name"><br>
+		<label>Description:</label>
+		<input type="text" placeholder="Description" name="description"><br>
+		<label>Date:</label>		
+		<input type="date" name="date"><br><br>		
+		<button type="submit">Submit</button>
+	</form>
+	</div>
+</body>
+</html>

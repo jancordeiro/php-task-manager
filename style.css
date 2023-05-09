@@ -1,0 +1,67 @@
+* {
+	/*box-sizing: border-box;*/
+}
+
+body {
+	background: linear-gradient(to right, #fff, #dbdbdb);	
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;	
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;	
+	width: 425px;	
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	color: white;
+	padding: 15px;
+	
+}
+
+.container h1, form, button {
+  padding: 20px;
+}
+
+#github a {
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+}
+
+input {
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+}
+
+input[name="description"] {
+	height: 80px;
+}
+
+.tasks-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+
+.tasks-box h1 {
+	padding: 20px 0;
+}
+
+#task-table {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	border-radius: 10px;
+	width: auto;
+	align-items: center;
+	justify-content: center;	
+}
